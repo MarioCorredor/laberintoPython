@@ -10,6 +10,15 @@ from Pared import Pared
 class Juego:
     def _init_(self):
         self.laberinto = None
+        
+        
+    def fabricarLaberinto(self):
+        return Laberinto()
+    
+    def laberinto2HabitacionesFM(self):
+        self.laberinto=self.fabricarLaberinto()
+        #TODO
+        
     def laberinto2Habitaciones(self):
         self.laberinto = Laberinto()
         
